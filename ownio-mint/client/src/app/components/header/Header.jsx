@@ -42,10 +42,10 @@ export default function Header() {
             setIsConnected(true);
 
             const { chainId } = await provider.getNetwork();
-            const sepoliaNetworkId = "43113";
+            const sepoliaNetworkId = "656476";
 
             if (chainId.toString() !== sepoliaNetworkId) {
-                toast('Please Switch To Fuji',
+                toast('Please Switch To Opencampus',
                 {
                     icon: '❌',
                     style: {

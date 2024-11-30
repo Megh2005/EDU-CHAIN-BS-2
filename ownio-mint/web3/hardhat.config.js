@@ -4,8 +4,9 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.24",
   networks: {
-    fuji: {
+    opencampus: {
       url: process.env.API_URL,
+      chainId: 6556476,
       accounts: [process.env.PRIVATE_KEY],
     },
   },

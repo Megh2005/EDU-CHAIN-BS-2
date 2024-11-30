@@ -254,7 +254,7 @@ export default function MarqueeDemo() {
     return (
         <div className="relative flex h-screen w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
             <HyperText
-                className="text-4xl font-bold text-black dark:text-white"
+                className="sm:text-4xl text-xl font-bold text-black dark:text-white"
                 text="Prestigious Testimonials"
             />
             <Marquee pauseOnHover className="[--duration:90s]">
